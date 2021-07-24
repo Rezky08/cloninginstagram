@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Blue Vinyl';
+    src: url('FONTSPRINGDEMO-BlueVinylRegular.eot');
+    src: url('FONTSPRINGDEMO-BlueVinylRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-BlueVinylRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-BlueVinylRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-BlueVinylRegular.ttf') format('truetype'),
+        url('FONTSPRINGDEMO-BlueVinylRegular.svg#FONTSPRINGDEMO-BlueVinylRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
