@@ -8,8 +8,8 @@ class Avatar extends React.Component {
   render() {
     return (
       <div className="avatar">
-        <div className="avatar-container rounded-full overflow-hidden border-2 border-gray-500">
-          <div className="avatar-container--inner rounded-full overflow-hidden border-2 h-5 w-5 text-center">
+        <div className="bg-black rounded-full h-6 w-6 flex items-center justify-center">
+          <div className="border-2 border-white bg-white avatar-container rounded-full overflow-hidden h-5 w-5">
             {this.props.children ? (
               React.cloneElement(this.props.children, {
                 className: "h-full w-full m-0",

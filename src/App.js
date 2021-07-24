@@ -1,11 +1,16 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/layouts/Header";
+import DefaultContainer from "./components/layouts/DefaultContainer";
+import Profile from "@/components/sections/profiles/Profile";
 
 function App() {
   return (
-    <div className="App bg-gray-50 h-screen">
+    <div className="App bg-gray-50 h-screen w-screen">
       <Header></Header>
+      <DefaultContainer>
+        <Profile />
+      </DefaultContainer>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
