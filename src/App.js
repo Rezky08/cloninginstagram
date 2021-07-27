@@ -3,13 +3,33 @@ import "./App.css";
 import Header from "./components/layouts/Header";
 import DefaultContainer from "./components/layouts/DefaultContainer";
 import Profile from "@/components/sections/profiles/Profile";
+import Tab from "@/components/Tabs/Tab";
+import TabItem from "@/components/Tabs/TabItem";
+import { ReactComponent as GridIcon } from "./assets/icons/instagram/Grid.svg";
+import Modal from "@/components/Modal";
 
 function App() {
   return (
     <div className="App bg-gray-50 h-screen w-screen">
       <Header></Header>
       <DefaultContainer>
-        <Profile />
+        <div className="flex flex-col gap-10">
+          <Profile />
+          <Tab>
+            <TabItem label="POSTS" labelIcon={<GridIcon />}>
+              <div className="iniIsi">Ini isi tab</div>
+            </TabItem>
+            <TabItem label="Test">
+              <div className="iniIsi">Ini isi tab</div>
+            </TabItem>
+            <TabItem label="Test">
+              <div className="iniIsi">Ini isi tab</div>
+            </TabItem>
+            <TabItem label="Test">
+              <div className="iniIsi">Ini isi tab</div>
+            </TabItem>
+          </Tab>
+        </div>
       </DefaultContainer>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

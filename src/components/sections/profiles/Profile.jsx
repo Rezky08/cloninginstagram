@@ -32,7 +32,7 @@ class Profile extends React.Component {
               <div className="col-span-1">
                 <ProfilePicture src={this.state.user?.photo} />
               </div>
-              <div className="col-span-1 sm:col-span-11">
+              <div className="col-span-1 sm:col-auto">
                 <ProfileSetting user={this.state.user} />
                 <ProfileDetail
                   user={this.state.user}
