@@ -6,7 +6,6 @@ import Profile from "@/components/sections/profiles/Profile";
 import Tab from "@/components/Tabs/Tab";
 import TabItem from "@/components/Tabs/TabItem";
 import { ReactComponent as GridIcon } from "./assets/icons/instagram/Grid.svg";
-import Modal from "@/components/Modal";
 
 function App() {
   return (
